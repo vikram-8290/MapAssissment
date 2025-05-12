@@ -1,13 +1,142 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f4f9;
+  color: #333333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body.dark-theme {
+  background-color: #2d3748;
+  color: #edf2f7;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Button Styling */
+.map-settings-button {
+  background-color: #2b6cb0;
+  color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.map-settings-button:hover {
+  transform: scale(1.1);
+  background-color: #3182ce;
+}
+
+/* Drawer Styling */
+.map-settings-drawer {
+  background: rgba(45, 55, 72, 0.9);
+  color: #edf2f7;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+}
+
+/* Headings */
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #38a169;
+}
+
+/* Setting Section */
+.setting-section {
+  margin-bottom: 20px;
+}
+
+.switch-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #a0aec0;
+}
+
+.switch-style {
+  background-color: #444;
+  margin-right: 10px;
+}
+
+.switch-style.ant-switch-checked {
+  background-color: #2b6cb0;
+}
+
+/* Radio Button Styling */
+.ant-radio-button-wrapper {
+  background-color: #444;
+  border: 1px solid #666;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.ant-radio-button-wrapper:hover {
+  background-color: #555;
+}
+
+.ant-radio-button-wrapper-checked {
+  background-color: #2b6cb0;
+}
+
+/* Slider Styling */
+.ant-slider {
+  background-color: #444;
+  border-radius: 10px;
+}
+
+.ant-slider-rail {
+  background-color: #718096;
+}
+
+.ant-slider-track {
+  background-color: #63b3ed;
+}
+
+.ant-slider-handle {
+  border-color: #3182ce;
+}
+
+/* Map Styling */
+.leaflet-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.heatmap-layer {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.marker {
+  border-radius: 50%;
+  background-color: #ffb74d;
+  padding: 10px;
+}
+
+.traffic-layer {
+  background-color: rgba(255, 87, 34, 0.8);
+}
+
+/* Custom Button for Current Location */
+.current-location-btn {
+  background-color: #38a169;
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.current-location-btn:hover {
+  background-color: #68d391;
 }
