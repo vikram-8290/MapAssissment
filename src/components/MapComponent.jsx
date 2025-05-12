@@ -15,7 +15,7 @@ import TerritoryManager from "./TerritoryManager";
 import { EnvironmentOutlined } from "@ant-design/icons";
 
 const MapComponent = () => {
-  const [center, setCenter] = useState({ lat: 20.5937, lng: 78.9629 }); // Center of India
+  const [center, setCenter] = useState({ lat: 20.5937, lng: 78.9629 }); 
   const [currentLocation, setCurrentLocation] = useState(null);
   const [zoom, setZoom] = useState(5);
   const [mapType, setMapType] = useState("roadmap");
@@ -33,7 +33,7 @@ const MapComponent = () => {
   const [loading, setLoading] = useState(false); 
   const [showCluster, setShowCluster] = useState(false);
 
-  // Predefined heatmap points for major cities in India
+  
   const heatmapPoints = [
     { lat: 28.6139, lng: 77.2090, weight: 10 },   // Delhi
     { lat: 19.0760, lng: 72.8777, weight: 15 },   // Mumbai

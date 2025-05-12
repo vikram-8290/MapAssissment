@@ -23,7 +23,7 @@ body.dark-theme {
   color: white;
 }
 
-/* Button Styling */
+
 .map-settings-button {
   background-color: #2b6cb0;
   color: #fff;
@@ -37,7 +37,7 @@ body.dark-theme {
   background-color: #3182ce;
 }
 
-/* Drawer Styling */
+
 .map-settings-drawer {
   background: rgba(45, 55, 72, 0.9);
   color: #edf2f7;
@@ -46,14 +46,14 @@ body.dark-theme {
   padding: 20px;
 }
 
-/* Headings */
+
 h3 {
   font-size: 18px;
   margin-bottom: 10px;
   color: #38a169;
 }
 
-/* Setting Section */
+
 .setting-section {
   margin-bottom: 20px;
 }
@@ -74,7 +74,7 @@ h3 {
   background-color: #2b6cb0;
 }
 
-/* Radio Button Styling */
+
 .ant-radio-button-wrapper {
   background-color: #444;
   border: 1px solid #666;
@@ -90,7 +90,7 @@ h3 {
   background-color: #2b6cb0;
 }
 
-/* Slider Styling */
+
 .ant-slider {
   background-color: #444;
   border-radius: 10px;
@@ -108,7 +108,7 @@ h3 {
   border-color: #3182ce;
 }
 
-/* Map Styling */
+
 .leaflet-container {
   width: 100%;
   height: 100vh;
@@ -128,7 +128,7 @@ h3 {
   background-color: rgba(255, 87, 34, 0.8);
 }
 
-/* Custom Button for Current Location */
+
 .current-location-btn {
   background-color: #38a169;
   color: #fff;
